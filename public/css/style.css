@@ -1,0 +1,96 @@
+.my-auto
+{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+/*font-family: 'Hind Guntur', sans-serif;*/
+
+/*body { margin: 0px; position: relative; padding: 0px; overflow-x: hidden; font-family: 'Hind Guntur', sans-serif; font-weight: 400; font-size: 16px; color:#62646a; line-height: 24px; }
+
+*/
+/*===========================common css=================================*/
+ul, li, ol { list-style: none; list-style-type: none; padding: 0px; margin: 0px; }
+a { display: block; }
+*:focus { outline: none !important; outline: 0; }
+a:hover, a:focus { outline: none; color:#0195ed; text-decoration: none; }
+img { max-width: 100%; max-height: 100%; }
+
+p { font-weight: 400; font-size: 16px; line-height: 24px; color:#62646a; }
+strong { font-weight: 600; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Hind Guntur', sans-serif; font-weight: 700; color:#222325;
+}
+h1 { font-size: 40px; }
+h2 { font-size: 30px; }
+h3 { font-size: 25px; }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+
+
+/*====login=====*/
+.login_page { width: 100%; height: 100vh;  overflow-y: auto; position: relative; padding: 100px 0px 100px; text-align: center;   }
+.login_page .login { display: inline-block; text-align: left; max-width: 450px; margin: 0 auto; }
+.login { overflow-y:hidden;max-width: 400px; margin: 0 auto; padding: 30px 30px; background: #fff; box-shadow: 0px 0px 41px -14px #fff; -moz-box-shadow: 0px 0px 41px -14px #000; -webkit-box-shadow: 0px 0px 41px -14px #000; }
+.login form { width: 100%; display: inline-block; }
+.login form h2 { text-align: center; font-weight: 600; }
+.login form .logo { text-align: center; display:inline-block; margin-bottom: 10px; width: 100%; }
+.login form .logo a { display: inline-block; width: 120px; }
+.login form .fields { display: inline-block; width: 100%; }
+.login form .fields .inputbox { width: 100%; display: inline-block; margin-bottom: 20px; }
+.login form .fields .inputbox label { display: inline-block; width: 100%; }
+.login form .fields .inputbox input { display: inline-block; height: 40px; line-height: 30px; width: 100%; border: 1px solid #ddd; padding: 5px 10px;  } 
+.login form .buttons { text-align: center; }
+.login form a.register { text-align: center; margin-bottom: 20px; font-weight: 600; }
+.login form a.register:hover { text-decoration: underline; }
+.login form button { display: inline-block; height: 40px; min-width: 150px; padding: 5px 20px; line-height: 30px; border:0px; border-radius: 5px;  font-weight:600; text-align: center; background:#0195ed; color:#fff; }
+.login form button:hover { background: #000; color:#fff; }
+/*===end login===*/
+
+.center_div{
+    margin: 0 auto;
+    width:100% 
+}
+
+
+.top_div{
+-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+     -o-animation: fadein 2s; /* Opera < 12.1 */
+        animation: fadein 2s;
+      }
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.loader_cont { width: 100%; height: 100vh; display: flex; -moz-display: flex; -webkit-display: flex; flex-flow: column wrap; justify-content: center; align-items: center; }
+.loader_cont  p { width: 100%; margin-top:20px; font-weight: 500; font-size: 18px; }
+
+input[type="search"] { height: 38px; border: 1px solid #ddd; color:#333; font-size: 14px; padding: 5px 10px; line-height: 28px; }
+.wrapper {
+    min-height: calc(100vh - 217px);
+}
