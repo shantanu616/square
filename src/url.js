@@ -1,5 +1,5 @@
-const baseurl="http://localhost/OTHER/Jobportal_Api/public/api"
-// const baseurl="http://localhost:8000/api"
+//const baseurl="http://localhost/OTHER/Jobportal_Api/public/api"
+const baseurl="https://glacial-lake-09493.herokuapp.com/api"
 export const TAG="WEB";
 export const USERID=localStorage.getItem('user_id')==null?0:localStorage.getItem('user_id');
 export const LOGIN=baseurl+"/login";
